@@ -5,7 +5,7 @@ int occupe[200][300];      // tableau logique pour les collisions
 int lignes = 0;
 int colonnes = 0;
 
-/* On charge le plan
+/* On charge le plan/*
 
 void charger_plan(const char *fichier) {
     FILE *f = fopen(fichier, "r");
