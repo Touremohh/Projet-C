@@ -1,7 +1,7 @@
-#include "parking.h"
+#include "structure.h"
 
-char plan[200][300];       // stockage du plan ASCII
-int occupe[200][300];      // tableau logique pour les collisions
+char plan[200][300];       
+int occupe[200][300];      
 int lignes = 0;
 int colonnes = 0;
 
